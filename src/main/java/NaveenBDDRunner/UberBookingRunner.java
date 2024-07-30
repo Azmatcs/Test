@@ -9,7 +9,7 @@ import io.cucumber.testng.CucumberOptions;
 @CucumberOptions(
 		features="src/main/java/Features/Uber.feature",glue="NaveenBDDStep",monochrome=true,
         tags="@Regression and @SMOKE",
-		plugin= {"pretty","html:target/NaveenBDDStep.html","html:target/NaveenBDDStep.xml"}
+		plugin= {"pretty","html:target/NaveenBDDStep.html", "json:target/report.json"}
 		)
 
 
