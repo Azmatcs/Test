@@ -26,7 +26,7 @@ public class CRmLogin {
 	public void title_of_login_page_i_s_crm() {
 	String Title=	driver.getTitle();
 		System.out.println(Title);
-		Assert.assertEquals(Title,"#1 Free CRM Power Up your Entire Business Free Forever");
+		Assert.assertEquals(Title,"#1 Free CRM Software Power Up your Entire Business Free Forever");
 	   
 	}
 
