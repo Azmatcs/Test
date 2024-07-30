@@ -6,7 +6,7 @@ import io.cucumber.testng.CucumberOptions;
 @CucumberOptions(
 		features="src/main/java/Features/Uber.feature", glue="NaveenBDDStep",
 		
-		plugin= {"html:target/NaveenBDDStep.html","pretty"})
+		plugin= {"pretty","html:target/NaveenBDDStep.html", "json:target/report.json"})
 
 public class RegistrationTestRunner extends AbstractTestNGCucumberTests {
 
